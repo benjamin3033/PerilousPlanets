@@ -6092,6 +6092,21 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7620d33510ad43e4a922369bc3ed02fd, type: 2}
+    - target: {fileID: 704534680471784178, guid: b21ed4e1c4da1ff4f901bfd68d90e06f,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 704534680471784178, guid: b21ed4e1c4da1ff4f901bfd68d90e06f,
+        type: 3}
+      propertyPath: m_Center.x
+      value: -0.0000000023324866
+      objectReference: {fileID: 0}
+    - target: {fileID: 704534680471784178, guid: b21ed4e1c4da1ff4f901bfd68d90e06f,
+        type: 3}
+      propertyPath: m_Center.z
+      value: 8.2653084e-10
+      objectReference: {fileID: 0}
     - target: {fileID: 1329001901325973019, guid: b21ed4e1c4da1ff4f901bfd68d90e06f,
         type: 3}
       propertyPath: m_RootOrder
@@ -6151,6 +6166,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GatePortal
+      objectReference: {fileID: 0}
+    - target: {fileID: 5205982255410333667, guid: b21ed4e1c4da1ff4f901bfd68d90e06f,
+        type: 3}
+      propertyPath: LevelNumber
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b21ed4e1c4da1ff4f901bfd68d90e06f, type: 3}

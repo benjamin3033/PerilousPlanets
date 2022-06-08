@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7421096523720940784}
   - component: {fileID: 4691045133478864954}
   - component: {fileID: 2477795018088332709}
+  - component: {fileID: 4063294033726254259}
   m_Layer: 0
   m_Name: Portal wall
   m_TagString: Untagged
@@ -92,8 +93,21 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6492234364674017775}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.06, y: 0.061844513, z: 0.0000000022761166}
-  m_Center: {x: 1.1459535e-17, y: 0.020922258, z: -9.145409e-10}
+  m_Size: {x: 0.06, y: 0.06184451, z: 0.0026040908}
+  m_Center: {x: 3.7385815e-12, y: 0.020922255, z: 0.0011597691}
+--- !u!114 &4063294033726254259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6492234364674017775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3128f7f55ed849f4b8ba73ee3dc9e015, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LevelNumber: 0
