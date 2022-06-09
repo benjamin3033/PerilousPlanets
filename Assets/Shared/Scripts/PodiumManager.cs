@@ -9,6 +9,7 @@ public class PodiumManager : MonoBehaviour
 
     StoneKeyManager StoneKeyManagerScript = null;
     PortalManager PortalManagerScript = null;
+    InventoryImages InventoryImagesScript = null;
     GameObject GameManager = null;
 
     private void Start()
@@ -16,6 +17,7 @@ public class PodiumManager : MonoBehaviour
         GameManager = GameObject.Find("GameManager");
         StoneKeyManagerScript = GameManager.GetComponent<StoneKeyManager>();
         PortalManagerScript = GameManager.GetComponent<PortalManager>();
+        InventoryImagesScript = GameManager.GetComponent<InventoryImages>();
     }
 
     public void TakeStones()
@@ -25,6 +27,7 @@ public class PodiumManager : MonoBehaviour
             StonesCollected += StoneKeyManagerScript.StoneKeyHolder.Count;
             CheckStonesInPodium();
             PlaceStonesInPodium();
+            InventoryImagesScript.RemoveImages();
             StoneKeyManagerScript.StoneKeyHolder.RemoveRange(0, StoneKeyManagerScript.StoneKeyHolder.Count);
         }
     }

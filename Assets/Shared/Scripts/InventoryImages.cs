@@ -11,4 +11,12 @@ public class InventoryImages : MonoBehaviour
     {
         Instantiate(StoneKeyImage, ImagesHolder.transform);
     }
+
+    public void RemoveImages()
+    {
+        foreach(Transform child in ImagesHolder.transform)
+        {
+            GameObject.Destroy(child.gameObject);
+        }
+    }
 }
