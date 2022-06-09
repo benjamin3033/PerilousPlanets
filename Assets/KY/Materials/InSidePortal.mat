@@ -42,11 +42,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Distroin: 26.86
-    - _NormalStrenght: 2
+    - _Distroin: 79.24
+    - _NormalStrenght: 5.97
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Refraction_power: 3.2
+    - _Refraction_power: 0.5
     m_Colors:
     - _Color: {r: 0.28992918, g: 0.37735847, b: 0.047703773, a: 0}
   m_BuildTextureStacks: []
