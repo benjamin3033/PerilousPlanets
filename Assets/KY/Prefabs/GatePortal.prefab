@@ -277,7 +277,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Portal wall
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4063294033726254259, guid: e72fd49852da23a4f8202be6dc0e233d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e72fd49852da23a4f8202be6dc0e233d, type: 3}
 --- !u!4 &2381904264940566533 stripped
 Transform:
