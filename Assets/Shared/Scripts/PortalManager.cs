@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using GameAnalyticsSDK;
 
 public class PortalManager : MonoBehaviour
 {
@@ -16,6 +17,7 @@ public class PortalManager : MonoBehaviour
 
     public void SendPlayer()
     {
+        ProgressionAnalytics.SendProgression(GAProgressionStatus.Complete);
         SceneManager.LoadScene(LevelIndex);
     }
 }
