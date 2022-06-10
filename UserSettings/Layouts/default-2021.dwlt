@@ -132,15 +132,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Children: []
+  m_Children:
+  - {fileID: 9}
+  - {fileID: 2}
   m_Position:
     serializedVersion: 2
-    x: 1463
-    y: 0
-    width: 457
+    x: 0
+    y: 30
+    width: 1920
     height: 947
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
@@ -2037,7 +2039,7 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/MD/Materials
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: I:\Game Art & Development\Perilous Planets\PerilousPlanets
+  m_LastProjectPath: D:\Users\270029525\OneDrive - UP Education\Documents\Games\PerilousPlanets
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
